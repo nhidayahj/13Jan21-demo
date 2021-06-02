@@ -1,0 +1,59 @@
+.parent1 {
+  display: flex;
+  border: 1px solid black;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.box1 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
+.box3 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+.box4 {
+  background-color: goldenrod;
+  width: 100px;
+  height: 100px;
+}
+
+.parent2 {
+  display: flex;
+}
+
+.box10 {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  flex-grow: 2;
+}
+
+.box20 {
+  width: 100px;
+  height: 100px;
+  background-color: olivedrab;
+  flex-grow: 1;
+}
+
+.box30 {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  flex-grow: 1;
+}
