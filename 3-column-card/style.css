@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   height: 80vh;
-  /* border: 1px solid black; */
   align-items: center;
   flex-wrap: wrap;
 }
@@ -62,22 +61,17 @@ button {
   border-radius: 2rem;
 }
 
+button:hover {
+  background-color: rgba(165, 155, 155, 0.8);
+  color: white;
+}
+
 .attribution {
-  position: absolute;
-  top: 80vh;
-  left: 45%;
-  /* text-align: center; */
+  text-align: center;
   font-size: 11px;
   /* border: 1px solid black; */
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-/* @media screen and (max-width: 1024px) {
-  .attribution {
-    position: absolute;
-    bottom: 20px;
-    color: brown;
-  }
-} */
